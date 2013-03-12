@@ -10,3 +10,14 @@
   background: linear-gradient(to bottom, #ffffff 0%,#ffffff 85%,#eeeeee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
 }
+
+.badge-thumbnail{
+  text-align: center;
+}
+
+ul.fit-thumbnails{
+  margin-left: -13px;
+  >li{
+    margin-left: 15px;
+  }
+}

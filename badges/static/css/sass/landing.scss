@@ -1,5 +1,5 @@
 .hero-unit{
-  padding-bottom: 120px;
+  // padding-bottom: 120px;
   h2{
 
   }
@@ -27,8 +27,8 @@
             bottom: -80px;
           }
         }
-
       }
+
       .thumbnail{
         background-color: $white;
         position: relative;
@@ -54,19 +54,5 @@
   }
 }
 
-.tab-section{
-  margin-top: -113px;
-  .nav-tabs{
-    & > .active {
-      & a{
-        background-color: $white;
-        @include box-shadow(0 -1px 3px rgba(0, 0, 0, 0.055));
-      }
-    }
-  }
-}
-#learners-tab{
-  .thumbnails{
 
-  }
-}
+
