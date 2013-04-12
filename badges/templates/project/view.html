@@ -32,9 +32,9 @@
 
             <div class="row">
                 <div class="span4">
-                    <img src="{{ project.image.url }}"/>
+                    <img class="img-polaroid" src="{{ project.image.url }}"/>
                 </div>
-                <div class="span8">
+                <div class="span8 project-summary">
                     <dl>
                         <dt>{% trans 'Title' %}</dt>
                         <dd>{{ project.title }}</dd>
@@ -45,16 +45,15 @@
                     </dl>
                     <dl>
                         <dt>{% trans 'Steps taken' %}</dt>
-                        <dd>{{ project.description }}</dd>
+                        <dd>{% autoescape off %}{{ project.description }}{% endautoescape %}</dd>
                     </dl>
                 </div>
             </div>
 
             <div class="row">
               <div class="span12">
-                  <hr>
                  <h2>{% trans 'Lessons learned' %}</h2>
-                 <p>{{ project.reflection }}</p>
+                 <p>{% autoescape off %}{{ project.reflection }}{% endautoescape %}</p>
               </div>
             </div>
             
