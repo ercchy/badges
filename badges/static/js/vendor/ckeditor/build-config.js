@@ -45,7 +45,12 @@ var CKBUILDER_CONFIG = {
 		'bidi' : 1,
 		'pbckcode' : 1,
 		'pastefromword' : 1,
-		'confighelper' : 1
+		'confighelper' : 1,
+		'panel' : 1,
+		'floatpanel' : 1,
+		'menu' : 1,
+		'menubutton' : 1,
+		'scayt' : 1
 	},
 	languages : {
 		'af' : 1,
@@ -109,6 +114,6 @@ var CKBUILDER_CONFIG = {
 		'ug' : 1,
 		'uk' : 1,
 		'vi' : 1,
-		'cy' : 1
+		'cy' : 1,
 	}
 };

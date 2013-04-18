@@ -18,12 +18,12 @@ CKEDITOR.editorConfig = function( config ) {
 		{ name: 'forms' },
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
 		{ name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align' ] },
-		//{ name: 'links' },
+		{ name: 'links' },
 		{ name: 'insert' },
 		{ name: 'styles' },
 		{ name: 'colors' },
 		{ name: 'tools' },
-		//{ name: 'others' },
+		{ name: 'others' },
 		{ name: 'about' }
 	];
 
